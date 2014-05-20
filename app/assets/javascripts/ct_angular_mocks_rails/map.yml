@@ -1,0 +1,17 @@
+---
+module:
+  name: "ngMock"
+uis:
+  - name: $exceptionHandler
+    type: service  
+  - name: $httpBackend
+    type: service 
+  - name: $log
+    type: service
+  - name: $timeout
+    type: service
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
